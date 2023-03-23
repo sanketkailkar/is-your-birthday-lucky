@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-dark: #1f2937;
+    --primary-green: #6ee7b7;
+}
+
+body {
+    background-color: var(--primary-dark);
+    color: var(--primary-green);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 1rem 3rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 200px;
+    font-size: 1.5rem;
+    border: 3px solid var(--primary-green);
+    padding: 1.5rem 2rem 1rem;
+    border-radius: 1.5rem;
+    max-width: 400px;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    max-width: 400px;
+}
+
+button {
+    margin: 1rem auto 0.5rem;
+    padding: 0.7rem 1rem;
+    width: 35vw;
+    max-width: 150px;
+    background: transparent;
+    border: 2px solid var(--primary-green);
+    color: var(--primary-green);
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--primary-green);
+    color: var(--primary-dark);
+    box-shadow: 0px 0px 3px var(--primary-green);
+}
+
+.output-box {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* footer  */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer>h2 {
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+footer>h2 a {
+    color: var(--primary-green);
+    text-decoration: none;
+}
+
+ul {
+    margin: 1rem;
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: var(--primary-green);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+footer>ul>li>a>ion-icon {
+    font-size: x-large;
+    color: var(--primary-green);
+}
