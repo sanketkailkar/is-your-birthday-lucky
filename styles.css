@@ -112,3 +112,40 @@ footer>ul>li>a>ion-icon {
     font-size: x-large;
     color: var(--primary-green);
 }
+
+@media screen and (max-width: 800px) {
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin: 3rem 1rem 3rem;
+    }
+
+    footer {
+        /* position: relative; */
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin: 3rem 1rem 3rem;
+    }
+
+    footer {
+        /* position: relative; */
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin: 3rem 1rem 3rem;
+    }
+
+    footer {
+        position: relative;
+    }
+}
